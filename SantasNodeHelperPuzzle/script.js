@@ -10,9 +10,9 @@ let firstTime = true;
 
 for (let i = 0; i < data.length; i++) {
   if (data.substring(i, i + 1) === "(") {
-    floor = floor + 1;
+    floor += 1;
   } else if (data.substring(i, i + 1) === ")") {
-    floor = floor - 1;
+    floor -= 1;
   }
 
 // DEBUG
