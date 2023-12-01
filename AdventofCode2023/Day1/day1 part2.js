@@ -67,14 +67,6 @@ parseFirstandLast = (input) => {
   return parseInt(first.toString() + last.toString());
 };
 
-// Sum all the pairs of digits
-sumOfValues = (pairs) => {
-  pairs.forEach((pair, index) => {
-    sumOfPairs = +pair;
-  });
-  return sumOfPairs;
-};
-
 sum = (total, num) => {
   return total + num;
 };
