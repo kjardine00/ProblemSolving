@@ -1,13 +1,7 @@
 
 
-aNumber = (input) => {
-    if (!isNaN(input)) {
-        return true;
-    } else { 
-        return false;
-    }
-}
+input = 'asfasdfoneasdf'
 
-output = aNumber('1asdf23');
+output = input.includes('one');
 
 console.log(output)
