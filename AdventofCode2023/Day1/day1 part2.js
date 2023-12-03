@@ -56,6 +56,7 @@ parseNumbers = (input) => {
         }
     }
   });
+  // console.log(numbersOnly);
   return numbersOnly;
 };
 
@@ -77,6 +78,7 @@ const inputLines = data.split(/\r?\n/);
 const digits = inputLines.map(parseNumbers);
 // Take the arrays of digits and get the first and last one as a pair
 const pairs = digits.map(parseFirstandLast);
+console.log(pairs)
 // Take the pairs of numbers and sum them for a total
 const answer = pairs.reduce(sum, 0);
 
